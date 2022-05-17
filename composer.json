@@ -17,10 +17,6 @@
 		"wiki": "https://github.com/ZakharovAndrew/yii2-survey-forms-widget/wiki",
 		"source": "https://github.com/ZakharovAndrew/yii2-survey-forms-widget"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ZakharovAndrew/yii2-survey-forms-widget.git"
-	},
 	"authors": [
 		{
 			"name": "Andrew Zakharov",
