@@ -37,7 +37,5 @@
 		"psr-4": {
 			"zakharov-andrew\\survey\\": ""
 		}
-	},
-	"minimum-stability": "dev",
-  	"prefer-stable": true
+	}
 }
