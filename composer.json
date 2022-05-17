@@ -1,14 +1,14 @@
 {
 	"name": "zakharov-andrew/yii2-survey-forms-widget",
 	"description": "Yii2 Survey Form widget",
-	  "type": "yii2-extension",
+	"type": "yii2-extension",
 	"keywords": [
 		"widget",
 		"survey",
 		"form",
 		"poll",
 		"yii2",
-    		"yii 2"
+    	"yii 2"
 	],
 	"homepage": "https://github.com/ZakharovAndrew/yii2-survey-forms-widget",
 	"license": "BSD-3-Clause",
@@ -31,7 +31,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"zakharov-andrew\\survey\\": ""
+			"surverform\\survey\\": ""
 		}
 	},
 	"minimum-stability": "dev"
