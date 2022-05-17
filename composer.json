@@ -31,7 +31,7 @@
 	"require": {
 		"php": ">=7.0",
 		"yiisoft/yii2": ">=2.0.13",
-		"zakharov-andrew/survey-forms": "dev-main"
+		"zakharov-andrew/survey-forms": ">=0.1"
 	},
 	"autoload": {
 		"psr-4": {
