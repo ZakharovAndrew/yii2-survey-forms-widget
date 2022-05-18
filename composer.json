@@ -20,5 +20,8 @@
     "psr-4": {
       "surverform\\survey\\": ""
     }
+  },
+  "fxp-asset": {
+    "enabled": false
   }
 }
