@@ -17,3 +17,15 @@ or add
 ```
 
 to the ```require``` section of your ```composer.json``` file.
+
+## Usage
+
+```
+use surveyforms\survey\Survey;
+
+echo Survey::widget([
+    'id' => 'survey-forms',
+    'title' => 'First Survey Test',
+    'background_color' => '#f7fafc'
+]);
+```
