@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "name": "Andrew Zakharov",
+      "name": "Andrew Zakharov",
       "homepage": "https://github.com/ZakharovAndrew",
       "role": "Developer"
     }
@@ -14,7 +14,7 @@
   "require": {
     "php": ">=7.0",
     "yiisoft/yii2": ">=2.0.13",
-    "zakharov-andrew/survey-forms": "*"
+    "zakharov-andrew/survey-forms": "^0.1.0"
   },
   "autoload": {
     "psr-4": {
