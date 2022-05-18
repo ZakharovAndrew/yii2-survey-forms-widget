@@ -26,6 +26,27 @@ use surveyforms\survey\Survey;
 echo Survey::widget([
     'id' => 'survey-forms',
     'title' => 'First Survey Test',
-    'background_color' => '#f7fafc'
+    'description' => 'Simple description. SurveyForms.js demo',
+    'background_color' => '#f7fafc',
+    'question' => [
+        (object)[
+            'title' => 'Test Title 1',
+            'required' => true,
+            'options' => ['one', 'two', 'zero']
+        ],
+        (object)[
+            'title' => 'Test Title 2',
+            'required' => false,
+            'options' => ['1', '2', '3'],
+            'score' => 5
+        ],
+        (object)[
+            'title' => 'Test Title 3',
+            'type' => 'select',
+            'required' => true,
+            'options' => ['option 1', 'option 2', 'option 3'],
+            'score' => 5
+        ],
+    ]
 ]);
 ```
