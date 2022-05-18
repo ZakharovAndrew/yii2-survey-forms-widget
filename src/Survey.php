@@ -1,4 +1,4 @@
-namespace app\components;
+namespace surveyforms\survey;
 
 use yii\base\Widget;
 use yii\helpers\Html;
