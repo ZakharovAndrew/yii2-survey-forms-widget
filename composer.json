@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "surverform\\survey\\": ""
+      "surverform\\survey\\": "src"
     }
   },
   "fxp-asset": {
