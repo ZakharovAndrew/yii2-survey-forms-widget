@@ -14,6 +14,9 @@ class Survey extends Widget
   public function run()
   {
       SurveyAsset::register($this);
-      return 'Test';
+      return "TEST <script>
+            var form = SurveyForms({
+                id: 'survey-form',
+              background_color: '#f7fafc'});</script>";
   }
 }
