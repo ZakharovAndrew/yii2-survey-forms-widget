@@ -23,7 +23,7 @@ to the ```require``` section of your ```composer.json``` file.
 ```
 use surveyforms\survey\Survey;
 
-echo Survey::widget([
+echo SurveyWidget::widget([
     'id' => 'survey-forms',
     'title' => 'First Survey Test',
     'description' => 'Simple description. SurveyForms.js demo',
