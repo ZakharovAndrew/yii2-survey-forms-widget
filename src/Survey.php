@@ -10,6 +10,8 @@ class Survey extends Widget
     public $background_color;
     public $description;
     public $question = [];
+    // url action
+    public $action;
     
     public function init()
     {
@@ -23,7 +25,8 @@ class Survey extends Widget
             'title' => $this->title,
             'background_color' => $this->background_color,
             'description' => $this->description,
-            'question' => json_encode($this->question)
+            'question' => json_encode($this->question),
+            'action' => $this->action
         ]);
     }
 }
