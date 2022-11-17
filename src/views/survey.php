@@ -1,5 +1,6 @@
 <?php
 use surveyforms\survey\SurveyAsset;
+use yii\widgets\ActiveForm;
 
 SurveyAsset::register($this);
 
@@ -15,6 +16,6 @@ JS;
 $this->registerJs($script, yii\web\View::POS_READY);
 ?>
 
-<form action="<?= $action ?>" method="POST">
+<?php $form = ActiveForm::begin(['action' => $action]); ?>
     <div id="<?= $id ?>"></div>
-</form>
+<?php ActiveForm::end(); ?>
