@@ -15,4 +15,6 @@ JS;
 $this->registerJs($script, yii\web\View::POS_READY);
 ?>
 
-<div id="<?= $id ?>"></div>
+<form action="<?= $action ?>" method="POST">
+    <div id="<?= $id ?>"></div>
+</form>
