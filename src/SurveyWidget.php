@@ -3,7 +3,7 @@ namespace surveyforms\survey;
 
 use yii\base\Widget;
 
-class Survey extends Widget
+class SurveyWidget extends Widget
 {
     public $id;
     public $title;
