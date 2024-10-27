@@ -50,3 +50,7 @@ echo SurveyWidget::widget([
     ]
 ]);
 ```
+
+## License
+
+**yii2-survey-forms-widget** it is available under a MIT License. Detailed information can be found in the `LICENSE.md`.
