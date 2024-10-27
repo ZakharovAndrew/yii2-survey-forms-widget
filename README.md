@@ -1,4 +1,9 @@
 # Yii2 Survey Forms widget
+
+[![Latest Stable Version](https://poser.pugx.org/zakharov-andrew/yii2-survey-forms-widget/v/stable)](https://packagist.org/packages/zakharov-andrew/yii2-survey-forms-widget)
+[![License](https://poser.pugx.org/zakharov-andrew/yii2-survey-forms-widget/license)](https://packagist.org/packages/zakharov-andrew/yii2-survey-forms-widget)
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+
 Survey module for Yii2 application. Use [SurveyForms.js](https://github.com/ZakharovAndrew/Survey-Forms) javascript library
 
 ## Installation
