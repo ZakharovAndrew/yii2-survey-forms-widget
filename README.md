@@ -25,7 +25,7 @@ to the ```require``` section of your ```composer.json``` file.
 
 ## Usage
 
-```
+```php
 use surveyforms\survey\Survey;
 
 echo SurveyWidget::widget([
